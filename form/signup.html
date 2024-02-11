@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+    form{
+        width: 100vw;
+        height: 100vh;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em;
+
+    }
+    input{
+        border: none;
+        width: 50%;
+        height: 3%;
+        padding: 1.5em 5em ;
+        border-radius: 1em;
+        
+    }
+    .click{
+        background: red;
+        color: #fff;
+        font-weight: bolder;
+    }
+    h1{
+        color: red;
+
+    }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0em;
+    background: black;
+  }
+ a{
+    color: red;
+    text-decoration: none;
+    margin-right: 1em;
+}
+</style>
+<body>
+    <nav>
+        <h1>Registration</h1>
+
+        <div>
+        <a href="signup.html">Sign up</a>
+         <a href="login.html">Login</a>
+         <a href="blog.html">Blog</a>
+
+        </div>
+    </nav>
+
+    <form>
+        <h1>SIGN UP</h1>
+     <input type="text"  placeholder="Victor Oshimen">   
+     <input type="email" placeholder="victoroshimen@gmail.com" id="">
+     <input class="click" type="submit" value="Sign Up">
+     
+    </form>
+</body>
+</html>
